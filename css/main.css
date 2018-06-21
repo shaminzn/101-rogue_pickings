@@ -1,0 +1,160 @@
+/**** BASICS ****/
+
+			@font-face {
+				font-family: WisdomScript;
+				src: url('fonts/WisdomScript.otf') format('opentype');
+				}
+
+			body {
+				background-color: white;
+				color: black;
+				margin: 20px;				
+
+			}
+
+			header, footer {
+				text-transform: uppercase;
+			}
+
+
+/**** NAVBAR ****/
+
+			nav {
+				color: #77a466;
+				font-family: 'Montserrat', sans-serif;
+				font-size: 14px;
+				float: right;
+				margin-right: 0px;
+				padding-top: 30px;
+				text-transform: uppercase;				
+				
+			}
+
+			ul {
+				list-style-type: none;
+				margin: 0px;
+				padding: 0px 20px 20px 20px;
+			   
+			}
+
+			nav li {
+				display: inline;
+				padding: 0px 0px 0px 20px;
+
+
+			}
+
+			nav li a {
+				color: #77a466;
+				display: inline;
+				font-weight: 700;
+				text-decoration: none;
+			}
+
+
+/**** HEADINGS ****/
+
+			h1, h3, h5 {
+				font-family: 'Montserrat', sans-serif;
+				text-transform: uppercase;
+			}
+			h1 {
+				padding: 0px 20px 20px 20px;
+			}
+
+			h3 {
+				color: #77a466;
+				padding: 0px 20px 0px 0px;
+			}
+
+			h5 {
+				color: #000000;
+				padding: 10px 0px 0px 20px;
+			}
+/**** MAIN CONTENT ****/
+
+			main {
+				clear: both;
+				padding: 0px 20px 20px 20px;
+			}
+
+			img {
+				border-top: 3px solid #77a466;
+				border-bottom: 3px solid #77a466;
+				clear: both;
+
+			}
+
+			p {
+				font-family: 'Montserrat', sans-serif;
+				font-weight: 400;
+				font-size: 16px;
+				line-height: 25px;
+				padding: 0px 20px 20px 20px;
+				
+			}
+
+			
+			
+/**** FOOTER ****/
+
+			footer {
+				clear: both;
+				font-family: 'Montserrat', sans-serif;
+				font-weight: 700;
+				margin: 10px;
+				padding: 30px;
+				text-align: center;
+				text-transform: uppercase;
+			}
+
+/**** SPLASH COLORING ****/
+
+			h1 span {
+				color: #77a466;
+				
+			}
+
+			footer span {
+				color: #77a466;
+				font-family: 'WisdomScript';
+				font-weight: normal;
+				text-transform: lowercase;
+			}
+
+/**** CLASSES ****/
+
+			.half-width h1{
+				float: left;
+			}
+
+			.third-width {
+				border-top: 1px solid #dedbdc;
+				border-bottom: 1px solid #dedbdc;
+				float: left;
+				height: 220px;
+				margin: 0px;
+				width: 400px;
+
+			}
+
+			.specials a {
+				color: #77a466;
+				font-family: 'Montserrat', sans-serif;
+				font-size: 16px;
+				line-height: 35px;
+				text-decoration: none;
+
+
+			}
+
+/**** IDS ****/
+
+			#intro {
+				padding: 0px 20px 20px 0px;
+			}
+
+			#border-side {
+				border-right: 1px solid #dedbdc;
+				border-left: 1px solid #dedbdc;
+			}
